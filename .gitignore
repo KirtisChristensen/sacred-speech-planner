@@ -1,0 +1,18 @@
+# Notebook checkpoints / temp
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Generated plan exports (per-user output, do not commit)
+sacred_speech_plan_*.md
+sacred_speech_plan_with_draft_*.md
+
+# Local env files
+.env
+.envrc
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,3 @@
+# Local-run dependencies. Colab has these preinstalled.
+openai>=1.0.0
+ipywidgets>=8.0.0
