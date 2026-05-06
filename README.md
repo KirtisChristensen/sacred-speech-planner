@@ -1,9 +1,9 @@
-﻿# Sacred Speech Scenario Planner
+# Sacred Speech Scenario Planner
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KirtisChristensen/sacred-speech-planner/blob/main/Sacred_Speech_Planner_v3.ipynb)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-A planning tool for U.S. Army chaplains and supervisory UMTs that helps rapidly produce **context-appropriate sacred speech** â€” devotionals, homilies, memorial remarks, trauma responses â€” for any operational or garrison scenario.
+A planning tool for U.S. Army chaplains and supervisory UMTs that helps rapidly produce **context-appropriate sacred speech** — devotionals, homilies, memorial remarks, trauma responses — for any operational or garrison scenario.
 
 The tool combines a **transparent rules-based profiler** (no AI, fully auditable) with an optional **LLM-assisted draft step** that treats the chaplain's own scripture, illustrations, and concept as the authoritative source material.
 
@@ -19,11 +19,11 @@ The tool combines a **transparent rules-based profiler** (no AI, fully auditable
 ## Quickstart
 
 1. Click the **Open in Colab** badge above.
-2. In Colab: **File â†’ Save a copy in Drive** (so you don't edit the canonical version).
+2. In Colab: **File → Save a copy in Drive** (so you don't edit the canonical version).
 3. Get an OpenAI API key at <https://platform.openai.com/api-keys>. Typical full run costs about **\$0.005** on `gpt-4o-mini`.
-4. In Colab's left sidebar, click the **key icon** â†’ **+ Add new secret** â†’ name it `OPENAI_API_KEY`, paste the key, toggle **Notebook access ON**.
-5. **Runtime â†’ Run all**, click **Grant access** on the consent popup the first time.
-6. Walk through Steps 1â€“6.
+4. In Colab's left sidebar, click the **key icon** → **+ Add new secret** → name it `OPENAI_API_KEY`, paste the key, toggle **Notebook access ON**.
+5. **Runtime → Run all**, click **Grant access** on the consent popup the first time.
+6. Walk through Steps 1–6.
 
 Detailed walkthrough: [docs/QUICKSTART.md](docs/QUICKSTART.md). Key setup screenshots: [docs/API_KEY_SETUP.md](docs/API_KEY_SETUP.md).
 
@@ -65,4 +65,4 @@ jupyter notebook Sacred_Speech_Planner_v3.ipynb
 
 ## Feedback
 
-File issues with: which step, what you typed (generic â€” no PII), what was produced, what you expected. PRs welcome for examples, prompt tuning, and documentation.
+File issues with: which step, what you typed (generic — no PII), what was produced, what you expected. PRs welcome for examples, prompt tuning, and documentation.

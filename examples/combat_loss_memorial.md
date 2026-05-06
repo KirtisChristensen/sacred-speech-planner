@@ -1,4 +1,4 @@
-﻿# Example: Combat Loss Memorial
+# Example: Combat Loss Memorial
 
 A field memorial for a soldier lost in operations, attended by the unit and family.
 
@@ -14,7 +14,7 @@ After autofill, Step 2 should land near:
 - Situation: **Combat loss**
 - Location: **Field / outdoors** (or **Chapel tent**)
 - OPTEMPO: **Recovery phase** (or **Sustained operations**)
-- Audience: **Bereaved family / next of kin** or **Mixed unit formation** â€” either is defensible; chaplain edits.
+- Audience: **Bereaved family / next of kin** or **Mixed unit formation** — either is defensible; chaplain edits.
 - Audience size: **Medium (20-100)**
 - Trauma: **High** (or **Acute / immediate**)
 - Fatigue: probably **Medium** to **High**
@@ -25,8 +25,8 @@ After autofill, Step 2 should land near:
 - Sacred text pref: **Psalm 23**
 - Tradition: **Christian**
 
-Step 3 should recommend a **memorial homily â€” Lament + Hope arc** with explicit guidance to avoid graphic re-narration, avoid platitudes, and emphasize presence over explanation.
+Step 3 should recommend a **memorial homily — Lament + Hope arc** with explicit guidance to avoid graphic re-narration, avoid platitudes, and emphasize presence over explanation.
 
 ## Optional Step 5 inputs
 
-The notebook's pluralism guardrails should preserve "Psalm 23" and Christian framing while making the address accessible to the mixed unit. Test by providing a short illustration about the soldier's character (generic â€” no name, no unit-specific detail) and confirming Step 6 preserves it without rewriting your voice.
+The notebook's pluralism guardrails should preserve "Psalm 23" and Christian framing while making the address accessible to the mixed unit. Test by providing a short illustration about the soldier's character (generic — no name, no unit-specific detail) and confirming Step 6 preserves it without rewriting your voice.

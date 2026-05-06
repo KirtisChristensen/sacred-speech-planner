@@ -1,4 +1,4 @@
-﻿# Pluralism
+# Pluralism
 
 This tool is built to operate inside the U.S. Army's pluralistic chaplaincy model. It is **descriptive and culturally adaptive**, not prescriptive.
 
@@ -36,13 +36,13 @@ The system prompt for Step 6 explicitly orders the model to:
 
 ## Supervisor / endorser oversight
 
-For training programs and IDP integration, the rules-based profile (Steps 1â€“4) is the most useful artifact for review: it surfaces structure, tone, posture, and pluralism considerations without committing to any specific theological content. Use it as a planning document a supervising chaplain can review across endorser lines.
+For training programs and IDP integration, the rules-based profile (Steps 1–4) is the most useful artifact for review: it surfaces structure, tone, posture, and pluralism considerations without committing to any specific theological content. Use it as a planning document a supervising chaplain can review across endorser lines.
 
 ## Reporting concerns
 
 If the tool produces output that crosses a pluralism, theological-neutrality, or trauma-responsiveness line in a way the system prompt should have caught, file an issue with:
 
-- The scenario inputs (generic â€” no PII).
+- The scenario inputs (generic — no PII).
 - The chaplain content provided (if any).
 - The LLM output that violated the line.
 - What the correct posture would have been.

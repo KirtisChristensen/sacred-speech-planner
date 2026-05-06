@@ -1,4 +1,4 @@
-﻿# Quickstart
+# Quickstart
 
 A 3-minute walkthrough for chaplains opening the planner for the first time.
 
@@ -8,11 +8,11 @@ Click the **Open in Colab** badge in the [main README](../README.md). The notebo
 
 ## 2. Save a copy to your Drive
 
-In Colab: **File â†’ Save a copy in Drive**. A new tab opens with your editable copy. Close the original read-only tab. Work in your copy from now on.
+In Colab: **File → Save a copy in Drive**. A new tab opens with your editable copy. Close the original read-only tab. Work in your copy from now on.
 
 ## 3. Add your OpenAI API key
 
-You need your own key â€” the notebook author's key is not shared.
+You need your own key — the notebook author's key is not shared.
 
 1. Get a key at <https://platform.openai.com/api-keys> (about \$0.005 per full notebook run on `gpt-4o-mini`).
 2. In Colab, click the **key icon** in the left sidebar.
@@ -24,15 +24,15 @@ Detailed walkthrough with screenshots: [API_KEY_SETUP.md](API_KEY_SETUP.md).
 
 ## 4. Run all cells
 
-**Runtime â†’ Run all**.
+**Runtime → Run all**.
 
 - The first time, click **Grant access** when Colab asks if the notebook may read your secret.
-- Step 0.5 should print `API_KEY loaded: length=â€¦`.
-- Step 0.6 should print `âœ… Key works.`
+- Step 0.5 should print `API_KEY loaded: length=…`.
+- Step 0.6 should print `✅ Key works.`
 
 If either fails, see [API_KEY_SETUP.md](API_KEY_SETUP.md) troubleshooting section.
 
-## 5. Walk through Steps 1â€“6
+## 5. Walk through Steps 1–6
 
 | Step | What you do |
 |---|---|
@@ -47,7 +47,7 @@ If either fails, see [API_KEY_SETUP.md](API_KEY_SETUP.md) troubleshooting sectio
 
 Step 4 and the export cell at the end of Step 6 save Markdown files into Colab's temporary file system. To keep them:
 
-- **Files panel** (folder icon, left sidebar) â†’ right-click the `.md` â†’ **Download**.
+- **Files panel** (folder icon, left sidebar) → right-click the `.md` → **Download**.
 - Or mount your Drive separately and copy them over.
 
 ## OPSEC checklist before you type

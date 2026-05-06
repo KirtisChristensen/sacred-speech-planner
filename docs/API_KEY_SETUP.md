@@ -1,32 +1,32 @@
-﻿# API Key Setup
+# API Key Setup
 
-Each user of the planner supplies their **own** OpenAI API key. The notebook author's key is **not** shared via the Colab link â€” Colab Secrets are per-user, per-Google-account.
+Each user of the planner supplies their **own** OpenAI API key. The notebook author's key is **not** shared via the Colab link — Colab Secrets are per-user, per-Google-account.
 
-## Step 1 â€” Create an OpenAI API key
+## Step 1 — Create an OpenAI API key
 
 1. Go to <https://platform.openai.com/api-keys>.
 2. Sign in (or create an OpenAI account).
 3. Click **+ Create new secret key**. Give it a memorable name like `sacred-speech-planner`.
-4. Copy the key. It starts with `sk-`. **You will not be able to view it again** â€” copy it now or you'll have to create another.
+4. Copy the key. It starts with `sk-`. **You will not be able to view it again** — copy it now or you'll have to create another.
 5. Make sure your account has billing set up: <https://platform.openai.com/account/billing>. A \$5 minimum credit is enough for many hundreds of full notebook runs.
 
 ### Cost note
 
 The default model is `gpt-4o-mini`. A typical full run (autofill + draft) uses well under \$0.01. Heavy daily use of the tool would still be in the cents-per-day range.
 
-## Step 2 â€” Add the key to Colab Secrets
+## Step 2 — Add the key to Colab Secrets
 
 1. Open the notebook in Colab (click the **Open in Colab** badge in the README).
-2. **File â†’ Save a copy in Drive** so you're working in your own copy.
+2. **File → Save a copy in Drive** so you're working in your own copy.
 3. In the left sidebar, click the **key icon** (Secrets).
 4. Click **+ Add new secret**.
 5. **Name:** `OPENAI_API_KEY` (exact spelling, all caps, with the underscore).
-6. **Value:** paste the `sk-â€¦` key from Step 1.
+6. **Value:** paste the `sk-…` key from Step 1.
 7. Toggle **Notebook access** to **ON** for this notebook.
 
 > The key now lives in your Google account's secret store. It is **not** stored in the notebook file. Anyone else opening the notebook with their own Colab account sees the notebook code but not your key value.
 
-## Step 3 â€” Verify
+## Step 3 — Verify
 
 1. Run **Step 0.5** in the notebook.
 2. The first time, Colab pops up: *"Grant this notebook access to your secret OPENAI_API_KEY?"* Click **Grant access**.
@@ -38,7 +38,7 @@ The default model is `gpt-4o-mini`. A typical full run (autofill + draft) uses w
    ```
 4. Run **Step 0.6**. It should print:
    ```
-   âœ…  Key works. Model gpt-4o-mini replied: 'ready.'
+   ✅  Key works. Model gpt-4o-mini replied: 'ready.'
    ```
 
 You're done. Continue with Step 1.
@@ -51,7 +51,7 @@ Add these the same way as Step 2 if you want to override defaults:
 |---|---|---|
 | `LLM_PROVIDER` | Switch to xAI Grok instead of OpenAI | `xai` |
 | `LLM_MODEL` | Use a different model | `gpt-4o`, `gpt-4.1-mini` |
-| `XAI_API_KEY` | xAI key (if `LLM_PROVIDER=xai`) | `xai-â€¦` |
+| `XAI_API_KEY` | xAI key (if `LLM_PROVIDER=xai`) | `xai-…` |
 
 ## Troubleshooting
 
@@ -75,7 +75,7 @@ Add these the same way as Step 2 if you want to override defaults:
 
 ### "Notebook access" toggle is greyed out
 
-- The notebook tab might be the read-only canonical version. Make sure you did **File â†’ Save a copy in Drive** and you're editing your copy.
+- The notebook tab might be the read-only canonical version. Make sure you did **File → Save a copy in Drive** and you're editing your copy.
 
 ## If you'd rather not use Colab Secrets
 

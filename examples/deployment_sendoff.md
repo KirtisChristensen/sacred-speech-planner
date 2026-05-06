@@ -1,10 +1,10 @@
-﻿# Example: Deployment Send-Off
+# Example: Deployment Send-Off
 
 A short address before a unit departs for a multi-month rotation.
 
 ## Scenario description (paste into Step 1)
 
-> Deployment send-off ceremony tomorrow morning. About 150 soldiers from a deploying unit, plus family members in the bleachers â€” spouses, kids, parents. Indoor briefing-bay setting. The unit is keyed up, families are anxious. I have about 5 to 8 minutes total, and I want to give the soldiers courage without ignoring what the families are feeling. Highly pluralistic audience, garrison environment, normal OPTEMPO leading into deployment. Need: courage and connection. I do not want to dwell on worst-case scenarios.
+> Deployment send-off ceremony tomorrow morning. About 150 soldiers from a deploying unit, plus family members in the bleachers — spouses, kids, parents. Indoor briefing-bay setting. The unit is keyed up, families are anxious. I have about 5 to 8 minutes total, and I want to give the soldiers courage without ignoring what the families are feeling. Highly pluralistic audience, garrison environment, normal OPTEMPO leading into deployment. Need: courage and connection. I do not want to dwell on worst-case scenarios.
 
 ## Expected behavior
 
@@ -23,7 +23,7 @@ After autofill, Step 2 should land near:
 - Time: **5-10 min**
 - Needs: **Encouragement**, **Hope**, **Communal bonding**, possibly **Resilience**
 
-Step 3 should recommend a **send-off charge â€” courage + connection + blessing** structure, hope-focused tone, and delivery tips appropriate to a large formation (larger gestures, repeated anchor phrase for the back rows).
+Step 3 should recommend a **send-off charge — courage + connection + blessing** structure, hope-focused tone, and delivery tips appropriate to a large formation (larger gestures, repeated anchor phrase for the back rows).
 
 ## Optional Step 5 inputs
 

@@ -1,12 +1,12 @@
-﻿# OPSEC
+# OPSEC
 
 This tool is designed for **planning and self-development**, not for processing sensitive information.
 
 ## What leaves your environment
 
-When you use Steps 1, 5, or 6, the contents of those text fields are sent to the OpenAI API over HTTPS. OpenAI's API data usage policy applies. The notebook itself does no logging â€” but anything you type into the form is part of the API request.
+When you use Steps 1, 5, or 6, the contents of those text fields are sent to the OpenAI API over HTTPS. OpenAI's API data usage policy applies. The notebook itself does no logging — but anything you type into the form is part of the API request.
 
-For Steps 0â€“4 (everything before the LLM autofill and the LLM draft), nothing leaves your browser. The rules-based profiler runs locally in the Colab kernel.
+For Steps 0–4 (everything before the LLM autofill and the LLM draft), nothing leaves your browser. The rules-based profiler runs locally in the Colab kernel.
 
 ## Do not enter
 
@@ -42,4 +42,4 @@ The model's response is also processed via the OpenAI API. The same caveats appl
 
 ## When in doubt
 
-If the planning content involves specifics you wouldn't put on an unclassified GPMS or send over commercial email â€” don't put it in this notebook. Use the rules-based profile only (skip Steps 1, 5, and 6) and write the message yourself.
+If the planning content involves specifics you wouldn't put on an unclassified GPMS or send over commercial email — don't put it in this notebook. Use the rules-based profile only (skip Steps 1, 5, and 6) and write the message yourself.
