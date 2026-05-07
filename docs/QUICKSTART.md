@@ -27,28 +27,29 @@ Detailed walkthrough with screenshots: [API_KEY_SETUP.md](API_KEY_SETUP.md).
 **Runtime → Run all**.
 
 - The first time, click **Grant access** when Colab asks if the notebook may read your secret.
-- Step 0.5 should print `API_KEY loaded: length=…`.
-- Step 0.6 should print `✅ Key works.`
+- The setup cell loads the API key and prompts; the launcher cell renders the wizard.
+- On the **Welcome** screen you should see `✅ API key works.`
 
-If either fails, see [API_KEY_SETUP.md](API_KEY_SETUP.md) troubleshooting section.
+If the key check fails, see [API_KEY_SETUP.md](API_KEY_SETUP.md) troubleshooting section.
 
-## 5. Walk through Steps 1–6
+## 5. Walk through the 5 wizard screens
 
-| Step | What you do |
-|---|---|
-| 1 | Type or paste a free-form scenario description. Click **Autofill scenario**. |
-| 2 | Review the form. Edit anything wrong. |
-| 3 | Click **Generate Plan**. Read the rules-based profile and organizer. |
-| 4 | (Optional) Export the plan to Markdown. |
-| 5 | (Optional but recommended) Type your concept, scripture, illustrations, or draft. |
-| 6 | Click **Generate AI Draft**. Review and edit the draft before delivery. |
+Use **Next ▶** / **◀ Back** to move between screens.
+
+| # | Screen | What you do |
+|---|---|---|
+| 1 | Welcome | Confirm the API key works (automatic). |
+| 2 | Describe | Paste a free-form scenario description. Click **Autofill from description**. |
+| 3 | Review | Review the form. Edit anything the AI got wrong (especially Time, Trauma, Fatigue, Cultural mix). |
+| 4 | Plan | Read the rules-based profile and organizer. (Optional) add your concept, scripture, illustrations. |
+| 5 | Draft | Click **Generate AI Draft**. Review and edit before delivery. Export the plan + draft to Markdown. |
 
 ## 6. Save your output
 
-Step 4 and the export cell at the end of Step 6 save Markdown files into Colab's temporary file system. To keep them:
+The export button on screen 5 saves a Markdown file into Colab's temporary file system. To keep it:
 
 - **Files panel** (folder icon, left sidebar) → right-click the `.md` → **Download**.
-- Or mount your Drive separately and copy them over.
+- Or mount your Drive separately and copy it over.
 
 ## OPSEC checklist before you type
 

@@ -1,11 +1,13 @@
 # Sacred Speech Scenario Planner
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KirtisChristensen/sacred-speech-planner/blob/main/Sacred_Speech_Planner_v3.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KirtisChristensen/sacred-speech-planner/blob/main/Sacred_Speech_Planner_v4.ipynb)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 A planning tool for U.S. Army chaplains and supervisory UMTs that helps rapidly produce **context-appropriate sacred speech** — devotionals, homilies, memorial remarks, trauma responses — for any operational or garrison scenario.
 
 The tool combines a **transparent rules-based profiler** (no AI, fully auditable) with an optional **LLM-assisted draft step** that treats the chaplain's own scripture, illustrations, and concept as the authoritative source material.
+
+The current release is **v4**, a guided 5-screen wizard. (The earlier linear v3 notebook remains in the repo for reference.)
 
 ## What it does
 
@@ -23,13 +25,13 @@ The tool combines a **transparent rules-based profiler** (no AI, fully auditable
 3. Get an OpenAI API key at <https://platform.openai.com/api-keys>. Typical full run costs about **\$0.005** on `gpt-4o-mini`.
 4. In Colab's left sidebar, click the **key icon** → **+ Add new secret** → name it `OPENAI_API_KEY`, paste the key, toggle **Notebook access ON**.
 5. **Runtime → Run all**, click **Grant access** on the consent popup the first time.
-6. Walk through Steps 1–6.
+6. Scroll to the wizard below the second cell and walk through the 5 screens (Welcome → Describe → Review → Plan → Draft) using **Next ▶** / **◀ Back**.
 
 Detailed walkthrough: [docs/QUICKSTART.md](docs/QUICKSTART.md). Key setup screenshots: [docs/API_KEY_SETUP.md](docs/API_KEY_SETUP.md).
 
 ## OPSEC
 
-**Use generic descriptors only.** No PII, names, unit identifiers, classified material, or sensitive operational detail. Inputs in Steps 1 and 5 are sent to the OpenAI API. See [docs/OPSEC.md](docs/OPSEC.md).
+**Use generic descriptors only.** No PII, names, unit identifiers, classified material, or sensitive operational detail. Inputs in the Describe and Plan screens are sent to the OpenAI API. See [docs/OPSEC.md](docs/OPSEC.md).
 
 ## Pluralism
 
@@ -56,7 +58,7 @@ git clone https://github.com/KirtisChristensen/sacred-speech-planner.git
 cd sacred-speech-planner
 pip install -r requirements.txt
 export OPENAI_API_KEY=sk-...   # or set as Windows env var
-jupyter notebook Sacred_Speech_Planner_v3.ipynb
+jupyter notebook Sacred_Speech_Planner_v4.ipynb
 ```
 
 ## License
