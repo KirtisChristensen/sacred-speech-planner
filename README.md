@@ -1,13 +1,13 @@
 # Sacred Speech Scenario Planner
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KirtisChristensen/sacred-speech-planner/blob/main/Sacred_Speech_Planner_v4.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KirtisChristensen/sacred-speech-planner/blob/main/Sacred_Speech_Planner_v5.ipynb)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 A planning tool for U.S. Army chaplains and supervisory UMTs that helps rapidly produce **context-appropriate sacred speech** — devotionals, homilies, memorial remarks, trauma responses — for any operational or garrison scenario.
 
 The tool combines a **transparent rules-based profiler** (no AI, fully auditable) with an optional **LLM-assisted draft step** that treats the chaplain's own scripture, illustrations, and concept as the authoritative source material.
 
-The current release is **v4**, a guided 5-screen wizard. (The earlier linear v3 notebook remains in the repo for reference.)
+The current release is **v5**, a guided 5-screen wizard with a model picker on the Welcome screen (OpenAI `gpt-4o-mini`, OpenAI `gpt-4.1-mini`, or xAI `grok-4`). (The earlier v4 wizard and linear v3 notebook remain in the repo for reference.)
 
 ## What it does
 
@@ -22,10 +22,12 @@ The current release is **v4**, a guided 5-screen wizard. (The earlier linear v3 
 
 1. Click the **Open in Colab** badge above.
 2. In Colab: **File → Save a copy in Drive** (so you don't edit the canonical version).
-3. Get an OpenAI API key at <https://platform.openai.com/api-keys>. Typical full run costs about **\$0.005** on `gpt-4o-mini`.
-4. In Colab's left sidebar, click the **key icon** → **+ Add new secret** → name it `OPENAI_API_KEY`, paste the key, toggle **Notebook access ON**.
+3. Get an API key for your chosen provider:
+   - OpenAI (`gpt-4o-mini`, `gpt-4.1-mini`): <https://platform.openai.com/api-keys>. Typical full run costs about **\$0.005** on `gpt-4o-mini`, a bit more on `gpt-4.1-mini`.
+   - xAI (`grok-4`): <https://console.x.ai/>.
+4. In Colab's left sidebar, click the **key icon** → **+ Add new secret**. Add `OPENAI_API_KEY` and/or `XAI_API_KEY` depending on which providers you want available. Toggle **Notebook access ON** for each.
 5. **Runtime → Run all**, click **Grant access** on the consent popup the first time.
-6. Scroll to the wizard below the second cell and walk through the 5 screens (Welcome → Describe → Review → Plan → Draft) using **Next ▶** / **◀ Back**.
+6. On the Welcome screen, pick a model from the **Model** dropdown. Then walk through the 5 screens (Welcome → Describe → Review → Plan → Draft) using **Next ▶** / **◀ Back**.
 
 Detailed walkthrough: [docs/QUICKSTART.md](docs/QUICKSTART.md). Key setup screenshots: [docs/API_KEY_SETUP.md](docs/API_KEY_SETUP.md).
 
@@ -57,8 +59,8 @@ Sample scenario descriptions you can paste into Step 1 to try the tool:
 git clone https://github.com/KirtisChristensen/sacred-speech-planner.git
 cd sacred-speech-planner
 pip install -r requirements.txt
-export OPENAI_API_KEY=sk-...   # or set as Windows env var
-jupyter notebook Sacred_Speech_Planner_v4.ipynb
+export OPENAI_API_KEY=sk-...   # and/or XAI_API_KEY=...
+jupyter notebook Sacred_Speech_Planner_v5.ipynb
 ```
 
 ## License
